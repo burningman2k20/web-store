@@ -1,0 +1,49 @@
+/*@import '~bootstrap/dist/css/bootstrap.css';*/
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bold-text{
+    font-weight: bolder;
+}
+
+
+.normal-text{
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.menu-padding {
+    padding:10px;
+}
+
+.disappear{
+    
+}
+
+@media screen and (max-width: 768px) {
+    .disappear { display:none}
+}
+
+.transparency{
+    mix-blend-mode: multiply;
+  }
+  
+  .no-padding {
+    padding:0px;
+  }
+  
+  .page-padding{
+    padding-top:200px;
+  }
+  
+
+  @media screen and (max-width: 576px) {
+  
+  }
+  
